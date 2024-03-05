@@ -1,0 +1,1 @@
+The usecase and advantage of using embedding. No matter how strong and awesome is the model. By using vector technique a great output can be generated with less good models.

@@ -13,7 +13,7 @@ pip install -q datasets==2.16.1
 pip install -q chromadb==0.4.22
 pip install --upgrade --quiet langchain-google-genai
 
-Usage
+## Usage
 
 The provided example demonstrates how to utilize LangChain for building a conversational agent capable of answering medical queries. The workflow involves:
 
@@ -25,7 +25,7 @@ The provided example demonstrates how to utilize LangChain for building a conver
     Creating an agent with predefined tools for answering medical questions.
     Invoking the agent to respond to user queries.
 
-Example Execution
+### Example Execution
 
 The example demonstrates interactions with the conversational agent for various medical queries:
 
@@ -49,11 +49,8 @@ The example demonstrates interactions with the conversational agent for various 
 
 Notes
 
-    Ensure that necessary API keys are provided when prompted during execution.
     This example demonstrates the integration of LangChain with Google Generative AI and ChromaDB for document retrieval and embedding generation. Additional tools and knowledge bases can be integrated as per requirements.
 
-Acknowledgments
+## Acknowledgments
 
 This example utilizes resources and models from the LangChain community and Google Generative AI.
-
-For further inquiries or assistance, feel free to contact the repository maintainers.

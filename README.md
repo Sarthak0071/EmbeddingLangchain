@@ -1,12 +1,12 @@
-LangChain Usage Example
+# LangChain Usage Example
 
-This repository contains a usage example of LangChain, a framework for building conversational agents with integrated knowledge retrieval capabilities. LangChain facilitates the integration of various tools and knowledge bases to enable agents to provide informative and contextually relevant responses to user queries.
-Installation
+This repository provides an example of using LangChain, a framework for building conversational agents with integrated knowledge retrieval capabilities.
+
+## Installation
 
 To install the required packages, run the following commands:
 
-bash
-
+```bash
 pip install -q langchain==0.1.4
 pip install langchainhub==0.1.14
 pip install -q datasets==2.16.1
@@ -49,11 +49,11 @@ The example demonstrates interactions with the conversational agent for various 
 
 Notes
 
-    
+    Ensure that necessary API keys are provided when prompted during execution.
     This example demonstrates the integration of LangChain with Google Generative AI and ChromaDB for document retrieval and embedding generation. Additional tools and knowledge bases can be integrated as per requirements.
 
 Acknowledgments
 
 This example utilizes resources and models from the LangChain community and Google Generative AI.
 
-For further inquiries or assistance, feel free to contact.
+For further inquiries or assistance, feel free to contact the repository maintainers.
